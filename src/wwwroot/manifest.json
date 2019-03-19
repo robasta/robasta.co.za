@@ -1,7 +1,7 @@
 {
-  "name": "Miniblog.Core",
+  "name": "A Bunch of Thoughts",
   "short_name": "Miniblog.Core",
-  "description": "A short description of the blog.",
+  "description": "Just what I was thinking at the time",
   "icons": [
     {
       "src": "/img/icon192x192.png",
