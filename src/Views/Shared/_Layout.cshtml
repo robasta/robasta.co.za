@@ -49,6 +49,9 @@
             <p class="container">Some features of this website do not work as expected when JavaScript is disabled</p>
         </noscript>
         @RenderBody()
+        <aside>
+            @await Component.InvokeAsync("Sidebar")
+        </aside>
     </main>
 
     <footer class="sitefooter">

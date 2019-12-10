@@ -1,0 +1,9 @@
+﻿@model IEnumerable<Post>
+    <div class="sidebar">
+        <ul>
+            @foreach (var post in Model)
+            {
+                <li><a href="@post.GetLink()" rel="canonical" itemprop="url">@post.Title</a></li>
+            }
+        </ul>
+    </div>
